@@ -21,6 +21,6 @@ def csv_from_excel(excel_file, target_prefix):
 
 
 for _file in glob.glob("leaf_maps/*"):
-	print _file
+	print (_file)
 	
 	csv_from_excel(_file, _file.replace(" Leaf Counts.xlsx",""))
